@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TUGAS 14-1</title>
+	<link rel="icon" href="file.png" type="image/png">
+	<style type="text/css">
+		input:focus {
+			outline: none;
+			border: 2px solid skyblue;
+		}
+	</style>
+</head>
+<body>
+	<h1>Form Element</h1>
+	<form>
+		<input
+			type="text"
+			placeholder="Nama" 
+			required
+			oninvalid="this.setCustomValidity('Nama mohon disini')"
+		>
+		<br><br>
+		<input 
+			type="text"
+			placeholder="Cita-Cita"
+			required
+			oninvalid="this.setCustomValidity('Cita-cita mohon disini')">
+		<br><br>
+		<input
+			type="text"
+			placeholder="NO HP"
+			required
+			oninvalid="this.setCustomValidity('No. HP mohon disini')"
+		>
+		<br><br>
+		<textarea 
+			type="text"
+			placeholder="Alamat"
+			style="width: 50%;height: 100px;"
+			required
+			oninvalid="this.setCustomValidity('Alamat mohon disini')"></textarea> 
+		<br><br>
+		<input type="submit" value="Simpan">
+		<p>Semoga ilmu yang dipelajari berkah - Tugas 14-1</p>
+	</form>
+</body>
+</html>
